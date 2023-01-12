@@ -20,11 +20,15 @@ header h1 {
     font-size: 48px;
 }
 
+/*
+changed .seo from class to #seo id as it is unique in the code.
+added normal font style as <em> tags were used to be more semantically correct.
+*/
 header h1 #seo {
     color: #d9dcd6;
     font-style:normal;
 }
-
+/*Div changed to nav to better represent the section semantically. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,9 +39,6 @@ header nav {
 
 header nav ul {
     list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
 }
 
 header nav ul li {
@@ -53,7 +54,9 @@ a {
 p {
     font-size: 16px;
 }
-
+/* changed .hero from class to #hero id as it is unique in the code.
+Removed the image from the css file and added it back to the site through the html file, better tonot have content linked through css.
+*/
 #hero {
     height: 800px;
     width: 100%;
@@ -76,7 +79,6 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    height: 100%;
 }
 
 .benefits {
@@ -89,7 +91,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Consolidated code to make it leaner and easier to read and maintain, the same measurements dont have to be typed out 3 times each. */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost
@@ -112,7 +114,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Consolidated code to 1 class called service-section, saves on typing out the information for each of the 3 services individually. 
+Makes the code a lot leaner and removes repitition.
+*/
 .service-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -137,7 +141,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-footer h2 {
+/*Updated h2 to h4 element to reflect new HTML*/
+footer h4 {
     font-size: 20px;
 }
