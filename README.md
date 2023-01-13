@@ -40,7 +40,7 @@ Here is the criteria for the project:
 
 ## Live Deployment
 
-
+Link to my live project site: https://porteous89.github.io/Module-1-Challenge-Horiseon/
 
 ## Usage
 
